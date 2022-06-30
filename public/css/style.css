@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@200;300;400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  /* font-family: "Roboto", sans-serif; */
+  
+}
+body{
+  background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Weather-Background.jpg');
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+
+
+
+
+}
+
+/* :root {
+  --main-bg: #1e272e;
+  --main-color: #0097e6;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  margin: 0;
+}
+
+/* navbar style */
+
+.nav
+{
+  background-color: gold ;
+  display: fkex;
+}
+ul{
+  display: flex;
+  list-style: none;
+  margin-left: 800px;
+  
+}
+ .a1{
+  text-decoration: none;
+  justify-content: space-evenly;
+  color: white;
+}
+.a2
+{
+  margin-left: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+.nav2
+{
+  background-color: transparent;
+  height: 50px;
+}
+.search
+{
+  margin-left: 450px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 1px;
+  padding: auto;
+}
+
+.btn{
+  padding: 5px;
+  background-color: chartreuse;
+}
+/* body style */
+
+/* .body
+{
+  height: 50vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  z-index: -1;
+} */
+
+.body
+{
+  margin: 80px 100px;
+  height: 500px;
+  width: 500px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+  border-radius: 20px;
+}
+#temp_real_val
+{
+  font-size: 250px;
+  color: white;
+  position: relative;
+  margin: 0px;
+}
+.temp{
+display: flex;
+}
+  
+
+.flex
+{
+  display: flex;
+  
+}
+.num
+{
+color: white;
+font-size: 250px;
+margin-bottom: 50px;
+position: relative;
+}
+.sup
+{
+color: white;
+margin-top: 80px;
+font-size: 50px;
+margin-right: 60px;
+}
+.n{
+  font-size: 400px;
+  color: white;
+  margin-left: 5px;
+}
+.d{
+  font-size: 100px;
+  color: white;
+}
+.c{
+font-size: 200px;
+color: white;
+}
+
+.content
+{
+  display: flex;
+}
+.details
+{
+  width: 350px;
+  height: 250px;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+  margin: auto;
+  border-radius: 10px;
+}
+h1
+{
+  color: white;
+  margin: 20px;
+}
+.pt
+{
+  color: white;
+  margin: 20px;
+}
+.hr{
+width: 1000px;
+height: 2px;
+background-color: chartreuse;
+margin: auto;
+}
+
+.cards
+{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.card1
+{
+  height: 300px;
+  width: 250px;
+   background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+  margin:20px 10px 20px 10px;
+}
+.card2
+{
+  height: 300px;
+  width: 250px;
+   background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+  margin:20px 10px 20px 10px;
+}
+.card3
+{
+  height: 300px;
+  width: 250px;
+   background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+  margin:20px 10px 20px 10px;
+}
+.card4
+{
+  height: 300px;
+  width: 250px;
+   background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ;
+  margin:20px 10px 20px 10px;
+}
+img{
+  margin: 40px;
+}
+
+.c1{
+color: white;
+margin-left: 80px;
+margin-top: 20px;
+}
+.c2{
+  color: white;
+margin-left: 80px;
+}
